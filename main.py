@@ -21,4 +21,4 @@ if __name__ == '__main__':
     assert parse_cookie('1;1;1;1;3;3;3;3;3') == {}
     assert parse_cookie('1$ = 41UAN') == {'1$': '41UAN'}
     assert parse_cookie('cars=BMW;year=2007;') == {'cars': 'BMW', 'year': '2007'}
-    assert parse_cookie('::::;;;;;;;') == {}
+    assert parse_cookie(':::;;;;;;;') == {}
