@@ -1,6 +1,33 @@
 from http.cookies import SimpleCookie
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def parse_cookie(query: str) -> dict:
     ps = SimpleCookie()
     ps.load(query)
